@@ -21,7 +21,7 @@ You can use the `visa-tool` in two ways: interactively or via command-line argum
 To start the interactive mode, run:
 
 ```bash
-poetry run python -m visa_tool.cli
+poetry run python -m visa_tool.cli interactive
 ```
 
 ### Command-Line Arguments

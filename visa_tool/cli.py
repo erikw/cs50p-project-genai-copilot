@@ -27,9 +27,10 @@ def main():
         print(info)
 
     elif args.command == 'exit':
-        entry_date = datetime.strptime(args.entry_date, '%Y-%m-%d')
+        # entry_date = datetime.strptime(args.entry_date, '%Y-%m-%d')
+        entry_date = args.entry_date
         last_exit_day = calculate_exit_day(entry_date, args.valid_days)
-        print(f'Last day to exit: {last_exit_day.strftime("%Y-%m-%d")}')
+        print(f'Last day to exit: {last_exit_day}')
 
     elif args.command == 'interactive':
         while True:
