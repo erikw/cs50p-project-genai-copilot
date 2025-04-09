@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "visa-tool"
+version = "0.1.0"
+description = "A tool to help answer questions related to Visa issues, including visa information per country and a last exit day calculator."
+authors = ["Your Name <youremail@example.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/yourusername/visa-tool"
+repository = "https://github.com/yourusername/visa-tool"
+keywords = ["visa", "calculator", "country", "information"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
