@@ -1,3 +1,17 @@
+# CS50P Project - Visa Tool 🛂: GenAI version
+This is a GenAI (Copilot) version of my handcrafted project [erikw/cs50p-project](https://github.com/erikw/cs50p-project). Just for fun, the code in this project was not used during or for the course. I just wanted to see how GenAI compare to manual coding using a rather minimal prompt.
+
+The following user prompt fed to Copilot that generated this project:
+
+> Create a python project using poetry. The project should be called visa-tool and be a tool that helps answering questions related to Visa issues. This would be showing the visa information per country, and a last exit day out of the country calculator. That calculator should take input the date of entry in the country, number of days the entry is valid for, and then output the last day one can stay in the country before one needs to exit. The program should support these features in an interactive mode, or by selecting a feature with arguments directly from CLI args.
+
+Only three lines was needed to be manually fixed for the generated code to run. I would say the generated version of this project is maybe 70% as good as the one I wrote myself, but took only 5 minutes in total compared to two full working days!
+
+
+
+> [!IMPORTANT]
+> Everything below is generated:
+
 # visa-tool
 
 ## Overview
