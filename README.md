@@ -1,5 +1,5 @@
 # CS50P Project - Visa Tool 🛂: GenAI version
-This is a GenAI (Copilot) version of my handcrafted project [erikw/cs50p-project](https://github.com/erikw/cs50p-project). Just for fun, the code in this project was not used during or for the course. I just wanted to see how GenAI compare to manual coding using a rather minimal prompt.
+This is a GenAI (Copilot) version of my handcrafted project [erikw/cs50p-project](https://github.com/erikw/cs50p-project). Just for fun, the code in this project was not used during or for the course. I just wanted to see how GenAI compare to manual coding using a rather minimal and lazy prompt, taking the very first output without refining the prompt.
 
 The following user prompt fed to Copilot that generated this project:
 
